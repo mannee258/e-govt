@@ -195,6 +195,11 @@
 	            <div class="service-content">
 	            	<h3 class="h05">Branding</h3>
 
+                <br>An effective brand strategy gives you a major edge in increasingly competitive markets.
+                But what exactly does "branding" mean? Simply put, your brand is your promise to your customer.
+                It tells them what they can expect from your products and services,
+                and it differentiates your offering from that of your competitors.
+                Your brand is derived from who you are, who you want to be and who people perceive you to be.</br>
 
 	         		</p>
 	         	</div>
@@ -208,6 +213,11 @@
 	            <div class="service-content">
 	            	<h3 class="h05">Tourism</h3>
 
+                <br>Tourism in Nigeria centers largely on events, due to the country's ample amount of ethnic groups,
+                but also includes rain forests, savannah, waterfalls, and other natural attractions.
+                 The industry suffers from the country's poor electricity, roads, and water quality.
+                 The tourism industry is regulated by the Ministry of Culture, Tourism and National Orientation, a Nigerian government ministry.
+                 In recent years, carnivals have become a major attraction to visitors, particularly in Port Harcourt and Calabar in December of each year.</br>
 
 	         		</p>
 	            </div>
@@ -221,6 +231,11 @@
 	            <div class="service-content">
 	            	<h3 class="h05">Drug Administration</h3>
 
+                <br>The National Agency for Food and Drug Administration and Control (NAFDAC)
+                 is a Nigerian federal agency under the Federal Ministry of Health that is responsible
+                 for regulating and controlling the manufacture, importation, exportation, advertisement,
+                 distribution, sale and use of food, drugs, cosmetics, medical devices, chemicals and packaged water.
+                 The immediate past director-general of NAFDAC, Paul Orhii, holds a PhD in medicine.</br>
 
 	        			</p>
 	            </div>
@@ -234,6 +249,13 @@
 	            <div class="service-content">
 	            	<h3 class="h05">Marketing</h3>
 
+                <br>The chartered status conferred on the institute, responsibility to regulate and standardize
+                marketing professional practice through the conduct of comprehensive examinations, training, retraining
+                and consultancy activities geared towards ensuring that members adopt professional approach in marketing
+                and other related areas of marketing activities. Whilst new entrants into the profession are being developed
+                through an intensive Programme of formal learning in marketing structured courses in various institutions
+                across the country on full and part-time bases, qualified members are being retrained to enable them adapt to
+                the ever changing demands of marketing situations at work and society at large.</br>
 
 	         		</p>
 	            </div>

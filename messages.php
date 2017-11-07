@@ -9,8 +9,19 @@ $contactMessage=$_POST['contactMessage'];
       $insertpost="INSERT INTO messagetbl(name, email, subject, message)
                  values('$contactName', '$contactEmail','$contactSubject','$contactMessage')";
 
-      $conn->query($insertpost) or die("Could not insert post, go to previous page click <A href='index.php'>Back</a>."); //insert post
+                 if (mysql_query($insertpost)) {
 
-      print "Message posted, to go to previous page click <A href='index.php'>Back</a>.";
+    echo "<script type=\"text/javascript\">
+                alert(\"New member added successfully.\");
+                window.location = \"index.php\"
+            </script>";
+
+} else{
+    die("Failed: " . mysql_error());
+}
+
+
+
+
 
 ?>

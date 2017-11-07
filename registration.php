@@ -10,8 +10,13 @@ $age=$_POST['age'];
       $insertpost="INSERT INTO citizentbl(name, address, phonenum, password, sex, age)
                  values('$name', '$address','$phonenum','$password','$sex', '$age')";
 
+                 echo "<script type=\"text/javascript\">
+                           alert(\Registration Successful.\");
+                           window.location = \"index.php\"
+                       </script>";
+
       $conn->query($insertpost) or die("Could not insert post"); //insert post
 
-      print "Message posted, to go to previous page click <A href='index.php'>Back</a>.";
+
 
 ?>
