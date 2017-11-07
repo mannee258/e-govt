@@ -9,17 +9,12 @@ $contactMessage=$_POST['contactMessage'];
       $insertpost="INSERT INTO messagetbl(name, email, subject, message)
                  values('$contactName', '$contactEmail','$contactSubject','$contactMessage')";
 
-                 if (mysql_query($insertpost)) {
+                 echo "<script type=\"text/javascript\">
+                           alert(\"Message sent Successfully.\");
+                           window.location = \"index.php\"
+                       </script>";
 
-    echo "<script type=\"text/javascript\">
-                alert(\"New member added successfully.\");
-                window.location = \"index.php\"
-            </script>";
-
-} else{
-    die("Failed: " . mysql_error());
-}
-
+                       $conn->query($insertpost) or die("Could not insert post"); //insert post
 
 
 

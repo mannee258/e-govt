@@ -11,9 +11,10 @@ $age=$_POST['age'];
                  values('$name', '$address','$phonenum','$password','$sex', '$age')";
 
                  echo "<script type=\"text/javascript\">
-                           alert(\Registration Successful.\");
-                           window.location = \"index.php\"
+                           alert(\"Registration Successful. Proceed to login.\");
+                           window.location = \"login.php\"
                        </script>";
+
 
       $conn->query($insertpost) or die("Could not insert post"); //insert post
 
